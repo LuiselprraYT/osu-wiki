@@ -2,7 +2,7 @@
 
 ¡Gracias por tu interés en hacer la osu! wiki mejor! Este articulo cubre el proceso de contribucion paso a paso. Si ya tienes experiencia usando GitHub, puedes omitir esta guía y seguir el flujo de trabajo normal de feature-branch para proponer cambios y salta a la seccion de [Autocomprobación](#Autocomprobación).
 
-No esperamos que los nuevos contribuidores esten familiarizados con GitHub o [Git](https://git-scm.com/), debido a que son herramientas mayormente enfocadas para desarrolladores. No te preocupes si no haces algo bien tu primera vez, un [wiki maintainer](/wiki/osu!_wiki/Maintenance/List_of_maintainers) te guiara en la direccion correcta, o lo arreglara por ti.
+No esperamos que los nuevos contribuidores esten familiarizados con GitHub o [Git](https://git-scm.com/), debido a que son herramientas mayormente enfocadas para desarrolladores. No te preocupes si haces algo mal tu primera vez, un [wiki maintainer](/wiki/osu!_wiki/Maintenance/List_of_maintainers) te guiara en la direccion correcta, o lo arreglara por ti.
 
 Si, durante cualquier parte, estás confundido y/o necesitas ayuda adicional, siéntete libre de enviar un mensaje al canal `#osu-wiki` en el [servidor de Discord de osu!dev](/wiki/Community/osu!dev_Discord_server).
 
@@ -28,11 +28,11 @@ Los articulos de la wiki de osu! se encuentran almacenados en [GitHub][osu_wiki]
 
 ## Autocomprobación
 
-When you are done editing, take some time to proofread your work. Go through the following quick checklist:
+Cuando termines de editar, tomate tu tiempo para corregir tu trabajo. Sigue el listado que se presenta a continuacion:
 
-- **Tono de entrega**: the osu! wiki articles, with rare exceptions, must be written using a neutral register.
-- **Style and grammar**: the articles should be clear, understandable, and require no significant mental effort from the reader. Be consistent and avoid overcomplicated or abrupt sentences. Use editors with built-in spell checkers, such as [Google Docs](https://docs.google.com), to expose typos and grammatical or syntax errors.
-- **[Content parity](/wiki/Article_styling_criteria/Writing#content-parity)**: translations must contain the same information as the original articles (differences in punctuation, wording, or formatting are obviously expected). Instead of changing the contents of the translation, [open an issue](https://github.com/ppy/osu-wiki/issues/new) or an extra pull request for the original if you feel it is incomplete, inaccurate, or outdated.
+- **Tono de entrega**: Los articulos de la wiki de osu!, con excepciones poco comunes, deberan ser escritas usando un registro neutral.
+- **Estilo y gramática**: Los articulos tienen que ser claros, entendibles, y que no requieran de un esfuerzo mental significativo para el lector. Se consistente y evita oraciones complicadas o abruptas. Usa ediotores con con correctores ortográficos incorporados, tales como [Google Docs](https://docs.google.com), para exponer errores tipográficos, gramaticales o de sintaxis.
+- **[Paridad de Contenido](/wiki/Article_styling_criteria/Writing#content-parity)**: Traducciones deberan contener la misma informacion que el articulo original (obviamente se esperan diferencias en la puntuación, la redacción o el formato). En lugar de cambiar el contenido de la traducción, [open an issue](https://github.com/ppy/osu-wiki/issues/new) or an extra pull request for the original if you feel it is incomplete, inaccurate, or outdated.
 - **Structure and formatting**: preview your article with a tool such as [jbt's Markdown Editor](https://jbt.github.io/markdown-editor/) to make sure it looks exactly how you wanted it to be.<!-- TODO(TicClick): we really need an article on markup features specific to the osu! wiki-->
 - **All images and other non-text files** must be [under 1 megabyte](/wiki/Article_styling_criteria/Formatting#file-size). **Screenshots** need to use the default osu! skin and [specific settings](/wiki/Article_styling_criteria/Formatting#screenshots-of-gameplay), including the maximum dimensions of 1280×720.
 
