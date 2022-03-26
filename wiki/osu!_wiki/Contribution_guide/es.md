@@ -17,7 +17,7 @@ Si realmente quieres ayudar y no sabes por dónde comenzar, mira el [mantenimien
 Los artículos de la osu! wiki se encuentran almacenados en [GitHub][osu_wiki]. Para contribuir, haz lo siguiente
 
 0. [Crea](https://github.com/join) una cuenta de GitHub.
-1. Abre el repositorio [`ppy/osu-wiki`][osu_wiki] y haz click en `Fork` situado en la esquina de arriba a la derecha para hacer una copia controlada de la wiki. Para regresar a tu "Fork", dirijete a  [`ppy/osu-wiki`][osu_wiki] y haz click en `Fork` de nuevo.
+1. Abre el repositorio [`ppy/osu-wiki`][osu_wiki] y haz click en `Fork` situado en la esquina superior derecha para hacer una copia controlada de la wiki. Para regresar a tu "Fork", dirijete a  [`ppy/osu-wiki`][osu_wiki] y haz click en `Fork` de nuevo.
 
   - Si ya contabas con un "Fork" antiguo, sincronizalo ssegun las [mejores practicas § Sincronizando el "Fork"](/wiki/osu!_wiki/Contribution_guide/Best_practices#syncing-the-fork).
 
