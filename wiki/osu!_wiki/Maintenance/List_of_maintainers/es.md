@@ -2,12 +2,12 @@
 
 Los administradores regularmente utilizan el [localizador de problemas](https://github.com/ppy/osu-wiki/issues) y revisan las "pull request" de otros contribuidores. Contrario a otros contribuidores, ellos pueden editar las "pull request" y unirtlas a la rama `master` del repositorio, haciendo los cambios publicos.
 
-Si necesitas ayuda para realizar una contribucion o necesitas una revision en tu "pull request"
-If you need help with making a contribution or want a review on your pull request, send a message in the `#osu-wiki` channel of the [osu!dev Discord server](/wiki/Community/osu!dev_Discord_server) and a maintainer or another contributor will reply back (all maintainers know English).
+Si necesitas ayuda para realizar una contribucion o necesitas una revision en tu "pull request", envia un mensaje al canal `#osu-wiki` en el [servidor de Discord de osu!dev](/wiki/Community/osu!dev_Discord_server) y un administrador o algun contribuidor te respondera (todos los administradores hablan ingles)
+
 
 ## El quipo wiki
 
-<!-- internal reference: https://github.com/orgs/ppy/teams/wiki/members -->
+<!-- Referencia interna: https://github.com/orgs/ppy/teams/wiki/members -->
 
 | Perfil de osu! | Perfil de GitHub | Estado | Idiomas adicionales |
 | :-- | :-- | :-- | :-- |
@@ -28,7 +28,7 @@ If you need help with making a contribution or want a review on your pull reques
 
 ## El equipo de noticias
 
-Curators, editors, and approvers of all [news posts](https://osu.ppy.sh/home/news) that appear on the website.
+Editores, y aprobadores de todas las nuevas [publicaciones de noticias](https://osu.ppy.sh/home/news) que aparecen en el sitio web.
 
 | Perfil de osu! | Perfil de GitHub |
 | :-- | :-- |
@@ -36,9 +36,9 @@ Curators, editors, and approvers of all [news posts](https://osu.ppy.sh/home/new
 | ![][flag_AU] [peppy](https://osu.ppy.sh/users/2) | [peppy](https://github.com/peppy) |
 | ![][flag_US] [pishifat](https://osu.ppy.sh/users/3178418) | [pishifat](https://github.com/pishifat) |
 
-## Past maintainers
+## Administradores pasados
 
-This list includes maintainers of the MediaWiki setup, which the osu! wiki [used to have](/wiki/History_of_osu!/osu!_wiki):
+Esta lista incluye a los administradores de configuracion de MediaWiki, algo que osu! wiki [solia tener](/wiki/History_of_osu!/osu!_wiki):
 
 - ![][flag_RU] [\[Dellirium\]](https://osu.ppy.sh/users/519032)
 - ![][flag_NZ] [deadbeat](https://osu.ppy.sh/users/128370)
