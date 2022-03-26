@@ -1,29 +1,30 @@
-# osu! wiki maintenance
+# Mantenimiento de osu! wiki
 
-*See also: [osu! wiki contribution guide](/wiki/osu!_wiki/Contribution_guide)*
+*Ver también: [Guía de Contribución de la osu! wiki](/wiki/osu!_wiki/Contribution_guide)*
 
-This article describes technical or administrative aspects of the osu! wiki. It also covers maintenance procedures, which are required to keep it fresh—perhaps you may [help with one of them](#routines). For all discussions related to the wiki, use the `#osu-wiki` channel of the [osu!dev Discord server](/wiki/Community/osu!dev_Discord_server).
+Este articulo describe aspectos tecnicos y administrativos de la osu! wiki. Tambien cubre los procesos de mantenimiento, los cuales son requeridos para mantenerla al dia, tu puedes ayudar con [uno de ellos](#routines). Para toda discucion relacionada con la wiki, usa el canal `#osu-wiki` en el [servidor de Discord de osu!dev](/wiki/Community/osu!dev_Discord_server).
 
-## Administrators
+## Administradores
 
-*Main page: [List of the osu! wiki maintainers](/wiki/osu!_wiki/Maintenance/List_of_maintainers)*
+*Sitio principal: [Lista de administradores de la osu! wiki](/wiki/osu!_wiki/Maintenance/List_of_maintainers)*
 
-The administrators are people with [collaborator access](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-user-account-settings/permission-levels-for-a-user-account-repository#collaborator-access-for-a-repository-owned-by-a-user-account) to the [`ppy/osu-wiki` repository](https://github.com/ppy/osu-wiki/), where all articles and news posts are stored. They can triage and label issues, manage open pull requests, and make decisions regarding the osu! wiki's present and future.
+Los administradores son personas con [permisos de colaborador](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-user-account-settings/permission-levels-for-a-user-account-repository#collaborator-access-for-a-repository-owned-by-a-user-account) en el [repositorio `ppy/osu-wiki`](https://github.com/ppy/osu-wiki/), donde todos los articulos y noticias son publicados y almacenados. Ellos pueden clasificar y etiquetar problemas, administrar "pull request" y hacer desiciones con respecto al presente y futuro de la osu!wiki.
 
-Maintainers perform the final review of pull requests and merge them. If you have a contribution in need of attention, ask one of them in the `#osu-wiki` channel.
+Administradores llevan a cabo la ultioma revision de las "pull request" y las unen. Si tu tienes una contribucion que necesita atencion, puedes preguntarle a uno de ellos en el canal `#osu-wiki`.
 
-## Technical details
+## Detalles tecnicos
 
-### Issue tracker
+### Rastreador de problemas (Issue tracker)
 
-The osu! wiki's [issue tracker](https://github.com/ppy/osu-wiki/issues) contains ideas and requests for possible improvements, both for the articles themselves and wiki-related parts of the website. Open an issue if you have a feature request, or if you found a mistake on one of the pages. Please note that **this is only limited to the osu! wiki**—if you need assistance with other official projects related to osu!, use their own issue trackers:
+El [rastreador de problemas](https://github.com/ppy/osu-wiki/issues) contiene ideas y peticiones de posibles mejoras, para los articulosy partes relacionadas al sitio web de la wiki. Abre un problema si tienes una peticion futura, o si haz encontrado un problema en una de las paginas. Por favor ten en cuenta que **esto solo esta limitado a la osu !wiki**, si necesitas ayuda con otros proyectos oficiales relacionados a osu!, usa sus propios rastreadores de problemas:
 
 - [osu!(lazer)](https://github.com/ppy/osu)
-- [The osu! website](https://github.com/ppy/osu-web/)
-- [osu!(stable) issues](https://github.com/ppy/osu-stable-issues)
+- [Sitio web de osu!](https://github.com/ppy/osu-web/)
+- [Problemas de osu!(stable)](https://github.com/ppy/osu-stable-issues)
 
-#### Issue labels
+#### Etiquetas (labels)
 
+En GitHub, "pull request" y problemas pueden ser mencionadas y clasificadas usando [etiquetas](https://github.com/ppy/osu-wiki/labels), las cuales muestran diferentes aspectos de una "pull request"
 On GitHub, pull requests and issues may be tagged and classified by using [labels](https://github.com/ppy/osu-wiki/labels), which show different aspects of a pull request or issue. Labels are informational, set by the wiki maintainers, and are typically self-explanatory. While they require no action from a user's perspective, red labels serve as reminders or call to action for other maintainers:
 
 - `rule change`: the change affects an existing set of rules, such as the [ranking criteria](/wiki/Ranking_Criteria), and needs to be reviewed by the area's owner
