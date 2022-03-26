@@ -1,11 +1,11 @@
 # Lista de administradores de la osu! wiki
 
-Los administradores regularmente utilizan el [localizador de problemas](https://github.com/ppy/osu-wiki/issues) y revisan las "pull request" de otros contribuidores. Contrario a otros contribuidores, ellos pueden editar las "pull request" y unirtlas a la rama `master` del repositorio, haciendo los cambios publicos.
+Los administradores regularmente utilizan el [localizador de problemas](https://github.com/ppy/osu-wiki/issues) y revisan las "pull request" de otros contribuidores. Contrario a otros contribuidores, ellos pueden editar las "pull request" y unirlas a la rama `master` del repositorio, haciendo los cambios públicos.
 
-Si necesitas ayuda para realizar una contribucion o necesitas una revision en tu "pull request", envia un mensaje al canal `#osu-wiki` en el [servidor de Discord de osu!dev](/wiki/Community/osu!dev_Discord_server) y un administrador o algun contribuidor te respondera (todos los administradores hablan ingles)
+Si necesitas ayuda para realizar una contribución o necesitas una revisión en tu "pull request", envía un mensaje al canal `#osu-wiki` en el [servidor de Discord de osu!dev](/wiki/Community/osu!dev_Discord_server) y un administrador o algún contribuidor te responderá (todos los administradores hablan inglés)
 
 
-## El quipo wiki
+## El equipo wiki
 
 <!-- Referencia interna: https://github.com/orgs/ppy/teams/wiki/members -->
 
@@ -18,7 +18,7 @@ Si necesitas ayuda para realizar una contribucion o necesitas una revision en tu
 | ![][flag_DE] [Loctav](https://github.com/Loctav) | [Loctav](https://github.com/Loctav) | Inactivo | German |
 | ![][flag_US] [MegaApple_Pi](https://osu.ppy.sh/users/2148208) | [MegaApplePi](https://github.com/MegaApplePi) | Inactivo | - |
 | ![][flag_DE] [Okoratu](https://osu.ppy.sh/users/1623405) | [Okorin](https://github.com/Okorin) | Inactivo | Alemán |
-| ![][flag_AU] [peppy](https://osu.ppy.sh/users/2) | [peppy](https://github.com/peppy) | **Activo** | Japones |
+| ![][flag_AU] [peppy](https://osu.ppy.sh/users/2) | [peppy](https://github.com/peppy) | **Activo** | Japonés |
 | ![][flag_MX] [Repflez](https://osu.ppy.sh/users/201392) | [Repflez](https://github.com/Repflez) | Inactivo | Español |
 | ![][flag_FR] [Shiro](https://osu.ppy.sh/users/113005) | [osuShiro](https://github.com/osuShiro) | Inactivo | Frances |
 | ![][flag_CH] [TicClick](https://osu.ppy.sh/users/672931) | [TicClick](https://github.com/TicClick) | **Activo** | Ruso |
@@ -38,7 +38,7 @@ Editores, y aprobadores de todas las nuevas [publicaciones de noticias](https://
 
 ## Administradores pasados
 
-Esta lista incluye a los administradores de configuracion de MediaWiki, algo que osu! wiki [solia tener](/wiki/History_of_osu!/osu!_wiki):
+Esta lista incluye a los administradores de configuración de MediaWiki, algo que osu! wiki [solia tener](/wiki/History_of_osu!/osu!_wiki):
 
 - ![][flag_RU] [\[Dellirium\]](https://osu.ppy.sh/users/519032)
 - ![][flag_NZ] [deadbeat](https://osu.ppy.sh/users/128370)
