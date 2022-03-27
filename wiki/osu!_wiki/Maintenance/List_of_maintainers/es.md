@@ -36,7 +36,7 @@ Editores, y aprobadores de todas las nuevas [publicaciones de noticias](https://
 | ![][flag_AU] [peppy](https://osu.ppy.sh/users/2) | [peppy](https://github.com/peppy) |
 | ![][flag_US] [pishifat](https://osu.ppy.sh/users/3178418) | [pishifat](https://github.com/pishifat) |
 
-## Administradores pasados
+## Administradores anteriores
 
 Esta lista incluye a los administradores de configuración de MediaWiki, algo que osu! wiki [solia tener](/wiki/History_of_osu!/osu!_wiki):
 
