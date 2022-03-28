@@ -22,38 +22,37 @@ El [rastreador de problemas](https://github.com/ppy/osu-wiki/issues) contiene id
 - [Sitio web de osu!](https://github.com/ppy/osu-web/)
 - [Problemas de osu!(stable)](https://github.com/ppy/osu-stable-issues)
 
-#### Etiquetas (labels)
+#### Etiquetado de problemas (issue labels)
 
-En GitHub, "pull request" y problemas pueden ser mencionadas y clasificadas usando [etiquetas](https://github.com/ppy/osu-wiki/labels), las cuales muestran diferentes aspectos de una "pull request"
-On GitHub, pull requests and issues may be tagged and classified by using [labels](https://github.com/ppy/osu-wiki/labels), which show different aspects of a pull request or issue. Labels are informational, set by the wiki maintainers, and are typically self-explanatory. While they require no action from a user's perspective, red labels serve as reminders or call to action for other maintainers:
+En GitHub, "pull request" y los problemas pueden ser mencionadas y clasificadas usando [etiquetas (labels)](https://github.com/ppy/osu-wiki/labels), las cuales muestran diferentes aspectos de una "pull request" o un problema. Las etiquetas son informacionales, agregadas por los administradores de la wiki, y por lo general se explican por sí mismo. Mientras estas no requieren alguna accion por parte de la perspectiva del usuario, etiquetas rojas funcionan como recordatorio o para llamar la atencion de otros administradores:
 
-- `rule change`: the change affects an existing set of rules, such as the [ranking criteria](/wiki/Ranking_Criteria), and needs to be reviewed by the area's owner
-- `blocked`: the change has issues which must be resolved before proceeding, or depends on another issue which must be resolved first
-- `needs native review`: the translation needs to be checked by a person fluent in the respective language; alternatively, during the merge process it means that no such review took place
-- `needs rebase`: the pull request has too many small unstructured commits, which need to be rebased and worded in a better way; this is usually done by the maintainers right before the merge
+- `rule change` (cambio de regla): el cambio afecta un conjunto de reglas existentes como los [criterios de calificacion](/wiki/Ranking_Criteria), y estos necesitan ser revisados por el encargado del area.
+- `blocked` (bloqueado): el cambio tiene problemas que deberan resolverse antes de proceder, o dependiendo de otro problema que debera ser resuelto primero
+- `needs native review` (necesita revision nativa): la traduccion necesita ser revisada por una persona con fluidez en el idioma respectivo; alternativamente, durante el proceso de union significa que no se llevo a cabo ninguna revision
+- `needs rebase` (necesita reestructuración): la 'pull request' tiene demaciados acometidos pequenos sin esctructura , los cuales deberan ser reestructurados y redactados en una mejor manera; esto usualmente es hecho por los administradores antes de hacer la union
 
-### Links and redirects
+### Enlaces y redirecciones
 
-Most osu! wiki articles have alternative links, which are set up using the [`redirect.yaml`](https://github.com/ppy/osu-wiki/blob/master/wiki/redirect.yaml) file. The redirects are meant to be used outside the osu! wiki, for example, on the forums, or in the [chat](/wiki/Client/Interface/Chat_console), where they can be quickly turned into an inline reference:
+La mayoria de los articulos de la osu! wiki contienen enlaces alternativos, que son confugurados usando el archivo [`redirect.yaml`](https://github.com/ppy/osu-wiki/blob/master/wiki/redirect.yaml). Las redirecciones están destinadas a ser utilizadas fuera de osu! wiki, por ejemplo, en los foros, o en el [chat](/wiki/Client/Interface/Chat_console), donde 
+Most osu! wiki articles have alternative links, which are set up using the [`redirect.yaml`](https://github.com/ppy/osu-wiki/blob/master/wiki/redirect.yaml) file. The redirects are meant to be used outside the osu! wiki, for example, on the forums, or in the [chat](/wiki/Client/Interface/Chat_console), donde se pueden convertir rápidamente en una referencia en línea: 
 
 ```
-According to the [[RC]], this is forbidden.
+De acuerdo con el [[RC]], esto esta prohibido.
 ```
 
-When adding redirects for a new or existing article, keep in mind that they should be concise and designed for actual use.
+Al agregar redirecciones para un artículo nuevo o existente, ten en cuenta que deben ser concisos y diseñados para uso real.
 
-<!-- TODO: should probably briefly mention external links https://github.com/ppy/osu-web/issues/8086 and footnotes https://github.com/ppy/osu-wiki/issues/4911#issuecomment-893959588 once they are implemented -->
+### Integracion continua (CI checks)
 
-### CI checks
+El repositorio de la osu! wiki usa la [integracion continua](https://docs.github.com/en/actions/guides/about-continuous-integration) (CI) para revisar de manera automatica las 'pull request' entrantes por varios errores comunes. La lista de revisiones esta configurada al archivo [`continuous-integration.yml`](https://github.com/ppy/osu-wiki/blob/master/.github/workflows/continuous-integration.yml).
 
-The osu! wiki repository uses [continuous integration](https://docs.github.com/en/actions/guides/about-continuous-integration) (CI) to automatically check incoming pull requests for various common errors. The list of checks is configured in the [`continuous-integration.yml`](https://github.com/ppy/osu-wiki/blob/master/.github/workflows/continuous-integration.yml) file. 
+El archivo [`package.json`](https://github.com/ppy/osu-wiki/blob/master/package.json) lista todos los complementos usados por el CI, de los cuales algunos fueron escritos por los administradores de la osu! wiki.
 
-The [`package.json`](https://github.com/ppy/osu-wiki/blob/master/package.json) file lists all plugins used by the CI, from which some were written by the osu! wiki maintainers.
+Las comprobaciones de CI se ejecutan automáticamente en cada confirmación de un colaborador recurrente. Para unir las 'pull request' , se espera que los contribuidores arreglen errores reportados por el CI. Para ver el [estado de verificación](img/ci-status.png), haz lo siguiente:
 
-The CI checks are run automatically on every commit of a recurring contributor. In order to have their pull requests merged, contributors are expected to fix errors reported by the CI. To see the [status of checks](img/ci-status.png), do the following:
-
-1. Scroll down the pull request's page, find the `osu-wiki continuous integration` status row, and click the `Details` link.
-2. On the new page, expand the `run remark on changed files` step. Each finding is accompanied by its exact location in a file and a short description of why it is an error.
+1. Desplácese hacia abajo la pagina de 'pull request' 
+2. Scroll down the pull request's page, find the `osu-wiki continuous integration` status row, and click the `Details` link.
+3. On the new page, expand the `run remark on changed files` step. Each finding is accompanied by its exact location in a file and a short description of why it is an error.
 
 If you need help with decrypting CI check errors, or fixing issues, ask in the `#osu-wiki` channel on Discord.
 
