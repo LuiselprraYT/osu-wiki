@@ -50,7 +50,7 @@ El archivo [`package.json`](https://github.com/ppy/osu-wiki/blob/master/package.
 
 Las comprobaciones de CI se ejecutan automáticamente en cada confirmación de un colaborador recurrente. Para unir las 'pull request' , se espera que los contribuidores arreglen errores reportados por el CI. Para ver el [estado de verificación](img/ci-status.png), haz lo siguiente:
 
-1. Desplácese hacia abajo la pagina de 'pull request' 
+1. Desplácese hacia abajo la pagina web de 'pull request', encuentra `osu-wiki continuous integration`
 2. Scroll down the pull request's page, find the `osu-wiki continuous integration` status row, and click the `Details` link.
 3. On the new page, expand the `run remark on changed files` step. Each finding is accompanied by its exact location in a file and a short description of why it is an error.
 
